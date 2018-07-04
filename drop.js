@@ -1,6 +1,10 @@
 
 function drop(v, d, a) {
+    let button = document.getElementById("button")
+    button.disabled = 'disabled'
+
     let ball = document.getElementById("ball")
+
     v = v * a;
     let top = ball.offsetTop;
 
